@@ -1,0 +1,9 @@
+.gallery{
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+  img{
+    width: 20vw;
+  }
+}

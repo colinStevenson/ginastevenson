@@ -1,0 +1,19 @@
+.card{
+  margin-bottom: $spacer * 5;
+}
+
+.card h1{
+  font-weight: 300;
+  margin-bottom: $spacer*3;
+}
+
+.card p{
+  max-width: 968px;
+}
+
+// Zebra stripe sections
+.card:nth-of-type(even){
+  background: $gray-100;
+  padding-top: $spacer*3;
+  padding-bottom: $spacer*3;
+}

@@ -1,9 +1,12 @@
 .gallery{
   display: flex;
   align-content: flex-start;
-  flex-wrap: wrap;
+  overflow-x: scroll;
+  max-width: 100%;
 
   img{
-    width: 20vw;
+    max-width: 20vw;
+    height: 60vh;
+    margin: 0 $spacer $spacer 0;
   }
 }

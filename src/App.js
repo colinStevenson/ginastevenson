@@ -2,7 +2,7 @@ import './style/App.scss'
 import AppHeader from './compoonents/AppHeader.jsx'
 import About from './compoonents/About'
 import Contact from './compoonents/Contact'
-import Portfolio from './compoonents/Portfolio'
+import Gallery from './compoonents/Gallery'
 import Statement from './compoonents/Statement'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <AppHeader />
       <main>
-        <Portfolio />
+        <Gallery />
         <About />
         <Statement />
         <Contact />

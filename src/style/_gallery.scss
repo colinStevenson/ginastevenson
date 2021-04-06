@@ -1,12 +1,16 @@
 .gallery{
-  display: flex;
-  align-content: flex-start;
-  overflow-x: scroll;
-  max-width: 100%;
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+
+  > figure{
+    object-fit: contain;
+  }
 
   img{
-    max-width: 20vw;
-    height: 60vh;
-    margin: 0 $spacer $spacer 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }

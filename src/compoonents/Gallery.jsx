@@ -10,8 +10,8 @@ function Gallery() {
       <div className="container-fluid">
         <div className="gallery">
           {
-            images.map(image => 
-              <div><img className="img-fluid" src={image.default} alt="" /></div>
+            images.map((image, index) => 
+              <figure key={index}><img className="img-fluid" src={image.default} alt="" /></figure>
             )
           }
         </div>

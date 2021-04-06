@@ -1,8 +1,15 @@
 .navbar{
   padding-left: 0;
   padding-right: 0;
+  opacity: 0.9;
 
   .navbar-brand{
     font-weight: 400;
   }
+}
+
+// header offset
+$header-height: 58px;
+.offset-header{
+  margin-top: $header-height;
 }

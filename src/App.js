@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <AppHeader />
-      <main>
+      <main className="offset-header">
         <Gallery />
         <About />
         <Statement />

@@ -1,16 +1,26 @@
+$gutter-size: 0.5rem;
+
 .gallery{
-  display: grid;
-  gap: 0 1rem;
-  grid-template-columns: repeat(5, 1fr);
-  margin: 0 auto;
+  display: flex;
+  margin-left: -$gutter-size; /* gutter size offset */
+  width: auto;
 
-  > figure{
-    object-fit: contain;
+  .gallery-column{
+    padding-left: $gutter-size; /* gutter size */
+    background-clip: padding-box;
   }
-
+  figure{
+    margin: 0 0 $gutter-size;
+  }
   img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+
+    &:hover{
+      opacity: 0.8;
+    }
   }
 }

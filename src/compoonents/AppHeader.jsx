@@ -1,6 +1,6 @@
 function AppHeader() {
   return (
-      <header className="navbar navbar-expand-md">
+      <header className="navbar navbar-light bg-light navbar-expand-md fixed-top">
         <div className="container-fluid">
           <span className="navbar-brand">Gina Stevenson</span>
           <div className="navbar-collapse">

@@ -4,11 +4,6 @@ $gutter-size: 0.5rem;
   display: flex;
   margin-left: -$gutter-size; /* gutter size offset */
   width: auto;
-  transition: all 0.3s ease-out;
-
-  &.focussed{
-    transform: scale(0.98);
-  }
 
   .gallery-column{
     padding-left: $gutter-size; /* gutter size */
@@ -38,10 +33,9 @@ $gutter-size: 0.5rem;
   position: absolute;
   width: 100vw;
   height: 100vh;
-  top: 0;
+  top: $navbar-offset;
   left: 0;
   transition: opacity 0.3s ease-out;
-  opacity: 0;
   z-index: $zindex-modal-backdrop;
 
   figure{
@@ -50,11 +44,7 @@ $gutter-size: 0.5rem;
 
   img{
     max-width: 100%;
-    max-height: 90vh;
-  }
-
-  &.in{
-    opacity: 1;
+    max-height: 85vh;
   }
 }
 

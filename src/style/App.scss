@@ -21,7 +21,7 @@
  @import "bootstrap/scss/nav";
  @import "bootstrap/scss/navbar";
  @import "navbar";
-//  @import "card";
+ @import "card";
 //  @import "bootstrap/scss/breadcrumb";
 //  @import "bootstrap/scss/pagination";
 //  @import "bootstrap/scss/badge";
@@ -45,12 +45,12 @@ html{
   scroll-behavior: smooth;
 }
 
-.main{
+main{
   transition: transform 0.3s ease-in-out;
 }
-.fade-enter .main{
+.fade-enter main{
   transform: scale(0.98);
 }
-.fade-enter-active .main{
+.fade-enter-active main{
   transform: scale(1);
 }

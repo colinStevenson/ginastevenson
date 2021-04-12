@@ -29,14 +29,7 @@ $gutter-size: 0.5rem;
 }
 
 .gallery-full-screen{
-  background: $white;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: $navbar-offset;
-  left: 0;
-  transition: opacity 0.3s ease-out;
-  z-index: $zindex-modal-backdrop;
+  max-height: 100vh;
 
   figure{
     text-align: center;

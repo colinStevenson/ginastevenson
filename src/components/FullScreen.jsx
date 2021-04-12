@@ -35,7 +35,7 @@ function FullScreen({
   })
 
   return (
-    <main className="main gallery-full-screen">
+    <main className="offset-header gallery-full-screen">
       <div className="container-fluid">
         <div className="navbar">
           <ul className="nav">

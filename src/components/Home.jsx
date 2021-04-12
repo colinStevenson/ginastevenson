@@ -5,7 +5,7 @@ import Statement from './Statement'
 
 function Home({ images }) {
   return (
-    <main className="main offset-header">
+    <main className="offset-header">
       <Gallery images={ images } />
       <About />
       <Statement />

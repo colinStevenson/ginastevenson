@@ -1,15 +1,23 @@
 .card{
-  margin-bottom: $spacer * 3;
+  padding: $spacer * 5 0;
   min-height: 50vh;
+
+  &:first-of-type{
+    padding-top: 0;
+  }
 }
 
 .card h1{
   font-weight: 300;
   margin-bottom: $spacer * 3;
+  text-align: center;
 }
 
 .card p{
-  max-width: 968px;
+  max-width: map-get($grid-breakpoints, "lg");
+  margin: 0 auto;
+  font-size: $font-size-lg;
+  text-align: center;
 }
 
 // Zebra stripe sections

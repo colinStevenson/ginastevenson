@@ -1,10 +1,10 @@
 function Contact() {
   return (
     <section className="card" id="contact">
-      <div className="container-fluid">
+      <div className="container-fluid text-center">
         <h1>Contact</h1>
         <h2 class="h4">
-          <a href="https://www.pendletonartcenter.com/" target="_blank">Pendleton Art Center</a>
+          <a href="https://www.pendletonartcenter.com/" target="_blank" rel="noreferrer">Pendleton Art Center</a>
         </h2>
         <div>
           <div>1310 Pendleton Street</div>

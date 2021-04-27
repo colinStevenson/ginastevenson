@@ -19,7 +19,7 @@ import {
 const importAll = (r) => {
   return r.keys().map(r);
 }
-const images = importAll(require.context('./portfolio', false, /\.(jpe?g)$/))
+const images = importAll(require.context('../public/portfolio', false, /\.(jpe?g)$/))
 
 const getRouteKey = pathname => {
   return pathname.replace(/[0-9]/g, '')

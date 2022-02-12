@@ -73,7 +73,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "imagemin": "imagemin 'src/portfolio' --out-dir='src/portfolio' --plugin='mozjpeg' --plugin.mozjpeg.quality=80"
+    "imagemin": "imagemin 'portfolio' --out-dir='public/portfolio' --plugin='mozjpeg' --plugin.mozjpeg.quality=80"
   },
   "eslintConfig": {
     "extends": [

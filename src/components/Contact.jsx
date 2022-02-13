@@ -3,6 +3,9 @@ function Contact() {
     <section className="card" id="contact">
       <div className="container-fluid text-center">
         <h1>Contact</h1>
+        <div class="mb-3">
+          <a href="mailto:ginastev@gmail.com">ginastev@gmail.com</a>
+        </div>
         <h2 className="h4">
           <a href="https://www.pendletonartcenter.com/" target="_blank" rel="noreferrer">Pendleton Art Center</a>
         </h2>

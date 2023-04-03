@@ -17,7 +17,7 @@ import {
 } from 'react-transition-group'
 
 const importAll = (r) => {
-  return r.keys().map(r);
+  return r.keys().map(r).reverse();
 }
 const images = importAll(require.context('../public/portfolio', false, /\.(jpe?g)$/i))
 

@@ -3,7 +3,7 @@ function Contact() {
     <section className="card" id="contact">
       <div className="container-fluid text-center">
         <h1>Contact</h1>
-        <div class="mb-3">
+        <div className="mb-3">
           <a href="mailto:ginastev@gmail.com">ginastev@gmail.com</a>
         </div>
         <h2 className="h4">

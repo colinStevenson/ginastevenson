@@ -3,7 +3,7 @@ const imageminMozjpeg = require('imagemin-mozjpeg');
 
 (async() => {
   const files = await imagemin(
-      ['portfolio/*.jpg', 'src/portfolio/*.jpeg'],
+      ['portfolio/*.jpg', 'src/*.jpeg'],
       {
         destination: 'public/portfolio',
         plugins: [imageminMozjpeg({quality: 50})]

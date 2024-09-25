@@ -1,7 +1,6 @@
 .navbar{
   padding-left: 0;
   padding-right: 0;
-  // opacity: 0.9;
 
   .navbar-brand{
     font-weight: 400;
@@ -10,9 +9,16 @@
   .navbar-nav{
     transition: opacity 0.3s ease-out;
   }
+  @include media-breakpoint-down(sm) {
+    padding-left: 1rem;
+  }
 }
 
 // header offset
 .offset-header{
   margin-top: $navbar-offset;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: $navbar-offset-mobile;
+  }
 }

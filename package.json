@@ -36,7 +36,8 @@
     "fs-extra": "^9.0.1",
     "html-webpack-plugin": "4.5.0",
     "identity-obj-proxy": "3.0.0",
-    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
     "jest": "26.6.0",
     "jest-circus": "26.6.0",
     "jest-resolve": "26.6.0",
@@ -73,7 +74,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "imagemin": "imagemin 'portfolio' --out-dir='public/portfolio' --plugin='mozjpeg' --plugin.mozjpeg.quality=80"
+    "imagemin": "imagemin 'portfolio' --out-dir='public/portfolio' --plugin='mozjpeg' --mozjpeg.quality=80",
+    "minify-images": ".imagemin/index.js"
   },
   "eslintConfig": {
     "extends": [
